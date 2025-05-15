@@ -35,8 +35,8 @@ nav,
 }
 
 nav {
-  justify-content: space-between;
-  margin: 0 10rem;
+  justify-content: space-around;
+  /* margin: 0 10rem; */
   align-items: center;
   height: 17vh;
 }
