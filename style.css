@@ -36,7 +36,6 @@ nav,
 
 nav {
   justify-content: space-around;
-  /* margin: 0 10rem; */
   align-items: center;
   height: 17vh;
 }
@@ -111,7 +110,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
   height: 24px;
   width: 30px;
   cursor: pointer;
@@ -154,8 +152,8 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1; /* ✅ fades in */
+  transform: translateY(0); /* ✅ slides down */
 }
 
 .hamburger-icon.open span:first-child {
